@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Report</title>
+</head>
+
+<body>
+    <a href="epdimiology.html">go to epdimiology report page</a>
+    <h1>Report Your Path</h1>
+    <input id="patientId" type="text" placeholder="Patient ID" onchange="changeId()">
+    <table>
+    </table>
+    <div>
+        <input id="startDate" placeholder="Start Date" type="datetime-local">
+        <input id="endDate" placeholder="End Date" type="datetime-local">
+        <input id="city" placeholder="city" type="text">
+        <input id="location" placeholder="location" type="text">
+    </div>
+    <button id="add" onclick="add()">Add</button>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
